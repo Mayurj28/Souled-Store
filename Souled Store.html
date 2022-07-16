@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Souled Store</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="css/Proje.css">
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Owl Carousel Css-->
+    <link rel="stylesheet" href="../Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="../Owl/owl.theme.default.min.css">
+
+    <!-- Owl Carousel Js -->
+    <script src="../Owl/jquery.min.js"></script>
+    <script src="../Owl/owl.carousel.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../Owl/jquery-3.6.0.min.js">
+</head>
+
+<body>
+    <Header>
+        <div class="col-md-12 Top">
+            <div class="row Topp">
+                <a href="#" class="Track"> TRACK ORDER </a>
+                <a href="#" class="Track"> CONTACT US </a>
+                <a href="#" class="Track"><i class="fas fa-mobile-alt"></i> DOWNLOAD APP </a>
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <div class="row navbar-row">
+            <div class="col-md-2" style="background-color: white; width: 10%;margin-left: 40px;">
+                <img src="https://www.thesouledstore.com/static/img/newlogo.8dcc6cc.png" class="soul">
+            </div>
+            <div class="col-md-7 navbar menu">
+                <h6 class="navbar">MEN <i class="fas fa-chevron-down"></i></h6>
+                <h6 class="navbar">WOMEN <i class="fas fa-chevron-down"></i></h6>
+                <h6 class="navbar">WINTER WEAR 2022 <i class="fas fa-chevron-down"></i></h6>
+                <h6 class="navbar">THEME <i class="fas fa-chevron-down"></i></h6>
+                <h6 class="navbar">SUPIMA COLLECTION<i class="fas fa-chevron-down"></i></h6>
+                <h6 class="navbar">EXCLUSIVE MEMBERSHIP</h6>
+            </div>
+            <div class="col-md-3 menubar">
+                <i class="fas fa-search menu"></i>
+                <i class="fas fa-user menu"></i>
+                <i class="far fa-heart menu"></i>
+                <i class="fas fa-shopping-bag menu"></i>
+            </div>
+        </div>
+
+        <div>
+            <nav class=" navbar-light fixed-top mobile-header">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <!-- <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div> -->
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">MEN <i
+                                            class="fas fa-chevron-down"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">WOMEN <i class="fas fa-chevron-down"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">WINTER WEAR 2022 <i
+                                            class="fas fa-chevron-down"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">THEME <i class="fas fa-chevron-down"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">SUPIMA COLLECTION<i
+                                            class="fas fa-chevron-down"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">EXCLUSIVE MEMBERSHIP</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="col-md-3 mobile-body">
+            <i class="fas fa-search mobile-item"></i>
+            <i class="far fa-heart mobile-item"></i>
+            <i class="fas fa-shopping-bag mobile-item"></i>
+        </div>
+    </Header>
+    <main>
+        <!-- 1st Slider -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="width: fit-content;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/slider/20220124113409.jpg?format=webp&w=1500&dpr=1.2"
+                        class="d-block w-100" alt="First">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/slider/20211229114250.jpg?format=webp&w=1500&dpr=1.2"
+                        class="d-block w-100" alt="Second">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/slider/20211215120756.jpg?format=webp&w=1500&dpr=1.2"
+                        class="d-block w-100" alt="Third">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/slider/20220120121024.jpg?format=webp&w=1500&dpr=1.2"
+                        class="d-block w-100" alt="Third">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/slider/20211216174905.gif?format=webp&w=1500&dpr=1.2"
+                        class="d-block w-100" alt="Third">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="head">
+            <h3> NEW ARRIVALS </h3>
+        </div>
+        <!-- 2nd Slider -->
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+            data-bs-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#"><img
+                            src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileTie_Dye-_Grey_Set.jpg"
+                            class="d-block w-25" style="margin: 12px 0px 10px 10px;width: 32%!important;"></a>
+                    <a href="#"><img
+                            src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileMickey_Mouse-Women_Crop_Tops.jpg"
+                            class="d-block w-25" style="margin: 10px 15px 10px 15px;width: 32%!important;"></a>
+                    <a href="#"><img
+                            src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileDenim_Shirt-_Raw_Blue_Shirts.jpg"
+                            class="d-block w-25" style="margin: 10px 0px 10px 0px;width: 32%!important;"></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#"><img
+                            src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileSolid_Denim_Mid_Blue_Dress.jpg"
+                            class="d-block w-25" style="margin: 12px 0px 10px 10px;width: 32%!important;"></a>
+                    <a href="#"><img
+                            src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileSolid-_Smoke_Grey_Pajama.jpg"
+                            class="d-block w-25" style="margin: 10px 15px 10px 15px;width: 32%!important;"></a>
+                    <a href="#"><img
+                            src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileLooney_Tunes-_Tweety_Pattern_Set.jpg"
+                            class="d-block w-25" class="d-block w-25"
+                            style="margin: 10px 0px 10px 0px;width: 32%!important;"></a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section id="demo1" style="max-width: fit-content;">
+            <div class="row" style="--bs-gutter-x: none;">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileTie_Dye-_Grey_Set.jpg"
+                            class="d-block w-25" style="margin: 12px 0px 10px 10px;width: 32%!important;">
+                    </div>
+                    <div class="item">
+                        <img src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileMickey_Mouse-Women_Crop_Tops.jpg"
+                            class="d-block w-25" style="margin: 10px 15px 10px 15px;width: 32%!important;">
+                    </div>
+                    <div class="item">
+                        <img src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileDenim_Shirt-_Raw_Blue_Shirts.jpg"
+                            class="d-block w-25" style="margin: 10px 0px 10px 0px;width: 32%!important;">
+                    </div>
+                    <div class="item">
+                        <img src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileSolid_Denim_Mid_Blue_Dress.jpg"
+                            class="d-block w-25" style="margin: 12px 0px 10px 10px;width: 32%!important;">
+                    </div>
+                    <div class="item">
+                        <img src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileSolid-_Smoke_Grey_Pajama.jpg"
+                            class="d-block w-25" style="margin: 10px 15px 10px 15px;width: 32%!important;">
+                    </div>
+                    <div class="item">
+                        <img src="https://img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/New_Arrival_TileLooney_Tunes-_Tweety_Pattern_Set.jpg"
+                            class="d-block w-25" class="d-block w-25"
+                            style="margin: 10px 0px 10px 0px;width: 32%!important;">
+                    </div>
+                </div>
+                <!-- Main Categories -->
+                <div class="head" style="padding: 0px 0px 20px 0px;">
+                    <h3> CATEGORIES </h3>
+                </div>
+                <div class="container" style="max-width: fit-content;">
+                    <div class="row " style="padding: 0px;display: block;">
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/T-shirt-name-tiles.jpg?format=webp&w=480&dpr=1.0 "
+                                class="cat-img"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/dresses--name-tiles.jpg?format=webp&w=480&dpr=1.0 "
+                                style="width: 32%;margin: 0px -15px 0px -15px;"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/shirts-name-tiles.jpg?format=webp&w=480&dpr=1.0 "
+                                style="width: 32%;"></a>
+                    </div>
+                    <div class="row" style="display:block;margin-top: -8px;">
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/knitted-sweaters-horizontal-tile.jpg?format=webp&w=700&dpr=1.0"
+                                style="width: 48%; padding: 30px 0px 0px 0px;"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/womens-winterwear-name-tiles.jpg?format=webp&w=320&dpr=1.0"
+                                style="padding-top: 24px; margin: 0px -15px 0px -15px; max-height: 335px;"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/mens-winterwear-name-tiles.jpg?format=webp&w=320&dpr=1.0"
+                                style="padding-top: 23px; width: 25%; max-height: 336px;"></a>
+                    </div>
+                    <div class="row" style="display:block;">
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Pajamas-name-tiles.jpg?format=webp&w=320&dpr=1.0"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/womens-joggers-name-tiles.jpg?format=webp&w=320&dpr=1.0"
+                                style="margin: 10px -10px 15px -15px;"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/innerwear-horizontal-tile.jpg?format=webp&w=700&dpr=1.0"
+                                style="width: 49%; margin: -20px 0px -13px -10px;"></a>
+                    </div>
+                    <div class="row" style="display: block;">
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/womens-shirts-horizontal-tile.jpg?format=webp&w=700&dpr=1.0"
+                                style="width: 48.5%;"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/mens-coord-sets-name-tiles.jpg?format=webp&w=320&dpr=1.0"
+                                style="margin: 0px 0px 0px -15px;"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/polo-name-tiles.jpg?format=webp&w=320&dpr=1.0"
+                                style="margin: 0px 0px 0px -15px;"></a>
+                    </div>
+                    <div class="row" style="display: block;">
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/mens-joggers-name-tiles.jpg?format=webp&w=320&dpr=1.0"
+                                style="margin: 10px 0px 0px 0px;"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/boxers-name-tiles.jpg?format=webp&w=320&dpr=1.0"
+                                style="margin: 10px 0px 0px -15px;"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/womens-tank-tops--horizontal-tile.jpg?format=webp&w=700&dpr=1.0"
+                                style="margin: 9px 0px 0px -18px; max-width: 49%;"></a>
+                    </div>
+                    <div class="row" style="display: block;">
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/full-sleeve-tshirt-name-tiles_1.jpg?format=webp&w=320&dpr=1.0"
+                                style="margin: 20px 0px 0px 0px;"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/coord-sets-name-tiles.jpg?format=webp&w=320&dpr=1.0"
+                                style="margin: 20px 0px 0px -15px;"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/womens-sweatshorts-name-tiles.jpg?format=webp&w=320&dpr=1.0"
+                                style="margin: 20px 0px 0px -15px;"></a>
+                        <a href="#"><img
+                                src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/tank-tops-and-vests-name-tiles.jpg?format=webp&w=320&dpr=1.0"
+                                style="margin: 20px 0px 0px -11px;"></a>
+                    </div>
+                </div>
+                <div class="head" style="padding: 20px 0px 20px 0px;">
+                    <h3> OFFICIAL MERCHANDISE </h3>
+                </div>
+                <!-- 3rd Slider -->
+                <section id="demos" style="max-width: fit-content;">
+                    <div class="row" style="--bs-gutter-x: none;">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/Marvel_Logo_268x220_b16y8nC_GKd3vRA.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10 " alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/DC_Logo_268x220_qtYfouo_VyuqmVD.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/DC_Logo_268x220_qtYfouo_VyuqmVD_Pbz2nyW.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10 " alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/HarryPotter_Logo_268x220_LqBAKZU_Y8BG6uT.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10 " alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/WWE_Logo_268x220_kKX4Tz6_vsaXHfk.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/Disnety_Logo_268x220_GevoL2M_2j5PP2v.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10 " alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/Rick_Morty_268x220_4283QPV.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/StarWars_268x220_sPJGI16_ODbjkHD.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10 " alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/CSK_268x220_uUbHRKl_uwis8JT.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10 " alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/LooneyTunes_268x220_o3UJ8Y0_OPjL9nW.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10 " alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/Peanuts_268x220_qfFXBNz_RlzaFQX.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10 " alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/Merchandies-images/MumbaiIndians_268x220_2b23uBM_DU2iZQo.jpg?format=webp&w=300&dpr=1.0"
+                                    class="custom w-10 " alt="...">
+                            </div>
+                        </div>
+
+                        <script>
+                            $(document).ready(function () {
+                                $('.owl-carousel').owlCarousel({
+                                    dots: false,
+                                    loop: true,
+                                    margin: 10,
+                                    responsiveClass: true,
+                                    responsive: {
+                                        0: {
+                                            items: 1,
+                                            nav: false,
+                                        },
+                                        600: {
+                                            items: 2,
+                                            nav: false,
+                                        },
+                                        1000: {
+                                            items: 5,
+                                            nav: false,
+                                            loop: false,
+                                            margin: 20,
+                                        }
+                                    }
+                                });
+                            });
+                        </script>
+    </main>
+    <div class="head" style="padding: 20px 0px 20px 0px;">
+        <h3> TOP SELLING </h3>
+    </div>
+    <!-- 4th Slider -->
+    <section id="demos" style="max-width: fit-content;">
+        <div class="row" style="--bs-gutter-x: none;">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img
+                        src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/top_selling_Jadeja_KjWfnC8.jpg?format=webp&w=320&dpr=1.0">
+                    <h6 class="detail">Iron Man: Signature Stark</h6>
+                    <hr>
+                    <p class="info">Drop Cut T-Shirts</p>
+                    <h6>₹699</h6>
+                </div>
+
+                <div class="item">
+                    <img
+                        src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/SpongeBob-Pattern-Pajama-Set-top-selling-tile_2_jhOECMz.jpg?format=webp&w=320&dpr=1.0 ">
+                    <h6 class="detail">Iron Man: Signature Stark</h6>
+                    <hr>
+                    <p class="info">Drop Cut T-Shirts</p>
+                    <h6>₹699</h6>
+                </div>
+                <div class="item">
+                    <img
+                        src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Top-selling-tile--Deadpool-Jacket.jpg?format=webp&w=320&dpr=1.0 ">
+                    <h6 class="detail">Looney Tunes: Inner Peace</h6>
+                    <hr>
+                    <p class="info">T-Shirts</p>
+                    <h6>₹599</h6>
+                </div>
+                <div class="item">
+                    <img
+                        src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/SpongeBob-Pattern-Pajama-Set-top-selling-tile_1.jpg?format=webp&w=320&dpr=1.0 ">
+                    <h6 class="detail">F.R.I.E.N.D.S:I'll Be There For You</h6>
+                    <hr>
+                    <p class="info">T-Shirts</p>
+                    <h6>₹599</h6>
+                </div>
+
+                <div class="item">
+                    <img
+                        src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Top-selling-tile-Ayush_IHnQBnI.jpg?format=webp&w=320&dpr=1.0">
+                    <h6 class="detail">SpongeBob: Pattern Set</h6>
+                    <hr>
+                    <p class="info">Pyjamas Set</p>
+                    <h6>₹1199</h6>
+                </div>
+                <div class="item">
+                    <img
+                        src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/154topsellingti_nZi9EGE.jpg?format=webp&w=320&dpr=1.0">
+                    <h6 class="detail">Deadpool: Face</h6>
+                    <hr>
+                    <p class="info">Jackets</p>
+                    <h6>₹1699</h6>
+                </div>
+
+            </div>
+
+            <script>
+                $(document).ready(function () {
+                    $('.owl-carousel').owlCarousel({
+
+                        dots: false,
+                        loop: true,
+                        margin: 10,
+
+                        responsiveClass: true,
+                        responsive: {
+                            0: {
+                                items: 1,
+                                nav: false
+                            },
+                            600: {
+                                items: 3,
+                                nav: false
+                            },
+                            1000: {
+                                items: 4,
+                                nav: false,
+                                loop: false,
+                                margin: 20
+                            }
+                        }
+                    });
+                });
+            </script>
+
+            <footer>
+                <div>
+                    <a href="#"><img
+                            src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/ex_knSvGHP.jpg?format=webp&w=1366&dpr=1.0"
+                            style="max-width: -webkit-fill-available;"></a>
+                </div>
+                <div class="foot" style="margin: 40px 0px 30px 0px; text-align: center;">
+                    <h3>STRAIGHT OUT OF CELEBRITY CLOSETS </h3>
+                </div>
+                <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/slider/20220124113409.jpg?format=webp&w=1500&dpr=1.2"
+                                class="d-block w-100" alt="First" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/slider/20211229114250.jpg?format=webp&w=1500&dpr=1.2"
+                                class="d-block w-100" alt="Second" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/Homepage.jpg?format=webp&w=1366&dpr=1.0"
+                                alt="Third" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/slider/20211216174905.gif?format=webp&w=1500&dpr=1.2"
+                                class="d-block w-100" alt="Third">
+                        </div>
+                        <div class=" carousel-item ">
+                            <img src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/Ashish_Homepage_1.jpg?format=webp&w=1366&dpr=1.0"
+                                alt="Third " alt=" ">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="last">
+                    <h1>HOMEGROWN INDIAN BRAND </h1>
+                </div>
+                <div class="last1">
+                    <p>Over <b>3 Million</b> Happy Customers</p>
+                </div>
+                <div class="row " style="max-width: 100%;">
+                    <div class="col-md-3 data">
+                        <h6 class="headlist" style="color: red;">NEED HELP</h6>
+                        <ul class="details">
+                            <li>Contact Us</li>
+                            <li>Track Order</li>
+                            <li>Return & Refunds</li>
+                            <li>FAQs</li>
+                            <li>My Account</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 data1">
+                        <h6 class="headlist" style="color: red;">COMPANY</h6>
+                        <ul class="details">
+                            <li>About Us</li>
+                            <li>Careers</li>
+                            <li>Stores Near Me</li>
+                            <li>Gift Vouchers</li>
+                            <li>From The Soul</li>
+                            <li>Souled Army</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 data1">
+                        <h6 class="headlist" style="color: red;"> MORE INFO</h6>
+                        <ul class="details">
+                            <li>T&C</li>
+                            <li>Privacy Policy</li>
+                            <li>Sitemap</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 data1">
+                        <ul class="details">
+                            <li><i class="fas fa-rupee-sign"></i> COD Available</li>
+                            <li><i class="fas fa-truck"></i> 30 Days Easy Returns</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <p style="text-align: center;"> <i class="fas fa-mobile"></i> EXPERIENCE THE SOULED STORE APP</p>
+                    <div style="text-align: center;">
+                        <img src="https://tss-static-images.gumlet.io/icons/play-store.png" style="width: 10%;">
+                        <img src="https://tss-static-images.gumlet.io/icons/app-store.png" style="width: 10%;">
+                    </div>
+                </div>
+                <div>
+                    <p style="text-align: end; margin-right: 100px;">Follow Us:
+                        <img src="../Assests/images/5296516_tweet_twitter_twitter logo_icon.png" class="logo">
+                        <img src="../Assests/images/1298747_instagram_brand_logo_social media_icon.png" class="logo">
+                        <img src="../Assests/images/4102586_applications_linkedin_social_social media_icon.png"
+                            class="logo">
+                        <img src="../Assests/images/317727_facebook_social media_social_icon.png" class="logo">
+                    </p>
+                </div>
+                <center>
+                    <table class="tab" style="width: 86%;">
+                        <tr class="tabrow">
+                            <td>NAVIGATION LINKS </td>
+                            <td>+</td>
+                        </tr>
+                        <tr class="tabrow" style="border: 1px  solid black;">
+                            <td>WHO WE ARE </td>
+                            <td>+</td>
+                    </table>
+                </center>
+                <div class="payments">
+                    <p style="display: contents;">100% Secure Payment:</p>
+                    <img src="../Assests/images/phone.png" class="pay"
+                        style="width: 65px;margin: 4px 0px 0px 0px; height: 20px;">
+                    <img src="../Assests/images/google.png" class="pay"
+                        style="width: 51px; height: 16px; margin: 8px 0px 0px 5px;">
+                    <img src="../Assests/images/paytm.png" class="pay"
+                        style="width: 40px; margin: 10px 0px 0px 6px; height: 10px;">
+                    <img src="../Assests/images/mobi.png" class="pay"
+                        style="width: 70px; margin: -4px 20px 0px 2px; height: 40px;">|
+                    <p style="margin-top: 2px; margin-bottom: 1rem; margin-left: 10px;">Shipping Partner:</p>
+                    <img src="../Assests/images/fed.png" style="width: 50px; height: 10px; margin: 10px 0px 0px 7px;">
+                    <img src="../Assests/images/dtdc.png" style="width: 60px; height: 15px; margin: 7px 0px 0px 2px;">
+                </div>
+                <div style="text-align: center;">
+                    <i class="fa fa-copyright">The Souled Store 2022-23</i>
+                </div>
+            </footer>
+</body>
+
+</html>
